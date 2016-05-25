@@ -1,0 +1,20 @@
+{
+  "name": "react-native-tapable",
+  "version": "1.0.0",
+  "description": "React Native Component that handles single, double, or triple tap interactions with the least delay possible",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/christopherabouabdo/react-native-tapable"
+  },
+  "keywords": [
+    "react-native",
+    "component",
+    "tap"
+  ],
+  "author": "christopherabouabdo",
+  "license": "MIT"
+}
