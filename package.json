@@ -1,6 +1,6 @@
 {
   "name": "react-native-tapable",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "React Native Component that handles single, double, or triple tap interactions with the least delay possible",
   "main": "index.js",
   "scripts": {
