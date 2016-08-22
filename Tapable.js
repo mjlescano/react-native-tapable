@@ -1,7 +1,8 @@
 'use strict';
 
-import React, {
-  Component,
+import React, { Component } from 'react';
+
+import {
   TouchableWithoutFeedback,
   View
 } from 'react-native';
