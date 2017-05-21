@@ -37,7 +37,8 @@ class Tapable extends Component {
     this._tapCount = 0;
   }
 
-  onPress() {
+  onPress(evt) {
+    this._evt = evt.nativeEvent
     this._timer
       ? this._handlePress()
       : this._handleInitialPress();
@@ -74,7 +75,7 @@ class Tapable extends Component {
   _timerExpired() {
     // Find and run the proper handler for the tap count
     let current = COUNT_HANDLER_MAP.find((row) => row.count === this._tapCount);
-    this.props[current.fn] && this.props[current.fn]();
+    this.props[current.fn] && this.props[current.fn](this._evt);
     // Reset timer and tap count
     this.reset();
   }
